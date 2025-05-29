@@ -1,35 +1,56 @@
-# 🏧 ATM Simulation System
+# 🧾 ATM & Restaurant Ordering Systems (Python Projects)
 
-This project simulates a simple ATM machine where users can authenticate with a PIN, check their balance, withdraw or deposit money, and exit securely.
-
-Developed as part of a problem-solving session for **GCIS-123: Software Development & Problem Solving I @ RIT Dubai**, it introduces basic conditional logic, user input, authentication, and transaction handling.
+This folder contains two beginner-level Python programs designed to build foundational skills in logic, user interaction, and real-world application simulation. Both were developed as part of **GCIS-123: Software Development & Problem Solving I @ RIT Dubai**.
 
 ---
 
-## 📌 Features
+## 🏧 Project 1: ATM Simulation System
 
-- 🔐 **PIN Authentication**: Only allows access with the correct 4-digit PIN
-- 💰 **Check Balance**: Displays the current account balance
-- 🏦 **Deposit & Withdraw**: Allows balance updates with basic validation
-- ⚠️ **Insufficient Funds Handling**: Warns when withdrawal exceeds balance
-- 🔁 **Looping Menu**: Interactive options until the user chooses to exit
+A terminal-based simulation of a simple ATM machine. It authenticates users with a PIN and allows them to check their balance, deposit money, or withdraw funds with basic validation.
 
----
+### 📌 Key Features
 
-## 🛠️ Technologies Used
+- 🔐 PIN-based login system
+- 💰 Balance inquiry
+- 🏦 Deposit and withdrawal functionality
+- ⚠️ Insufficient funds warning
+- 🔁 Looping menu until user exits
 
-- Python 3
-- Console input/output
-- Conditional statements
-- Global variable handling
-- Function modularity
-
----
-
-## 🚀 How to Run
+### 💻 How to Run
 
 1. Save the file as:
-2. In your terminal or IDE, run:
+ATM.py
 
-```bash
+2. Run it using:
 python ATM.py
+
+---
+
+## 🏧 Project 2: Restaurant Ordering System
+
+This emulates a restauant environment particularly the restaurant menu ordering system
+
+### 📌 Key Features
+
+- 📋 Structured food menu with prices
+- 🧠 Handles invalid item numbers and inputs
+- 💵 Calculates subtotal, 8% tax, and total
+- 🙌 Clear, user-friendly output with emojis
+
+### 💻 How to Run
+
+1. Save the file as:
+Restaurant_Ordering.py
+
+2. Run it using:
+Restaurant_Ordering.py
+📌 Key Features
+
+
+
+
+
+
+
+
+
